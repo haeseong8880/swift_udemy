@@ -8,13 +8,6 @@
 
 import Foundation
 
-struct CoinData: Codable {
-    let src_side_base: SrcSideBase
-}
-
-struct SrcSideBase: Codable {
-    let time: String
-    let asset: String
+struct CoinData: Decodable {
     let rate: Double
-    let volume : Double
 }
