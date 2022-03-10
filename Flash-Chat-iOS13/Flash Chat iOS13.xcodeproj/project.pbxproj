@@ -198,7 +198,6 @@
 			mainGroup = 0B62816A235DEE8100E35CAF;
 			packageReferences = (
 				31EE746E27D9021D00B4D285 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				31EE747327D9025300B4D285 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
@@ -490,14 +489,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 8.0.0;
-			};
-		};
-		31EE747327D9025300B4D285 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
